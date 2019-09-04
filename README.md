@@ -7,3 +7,6 @@
 2. Text Preprocessing:  e.g. Tokenizing and Lemmatizing using Spacy
 3. Simple Sentiment Analysis using vaderSentiment
 4. Build a Text Classification Model that uses CountVectorisation, TFIDF-Transformation and a Multinomial Naïve Bayes Classifier to predict artists from song-lyrics.
+
+**Worcloud Quiz: Who's the Artist?**
+<img width="427" alt="Bildschirmfoto 2019-09-04 um 16 14 37" src="https://user-images.githubusercontent.com/50407361/64263170-81d2d000-cf2f-11e9-8dd0-2401e9783cbe.png">
