@@ -13,7 +13,9 @@
 3. Simple **Sentiment Analysis** using vaderSentiment
 4. Build a **Text Classification Model** that uses CountVectorization, TFIDF-Transformation and a Multinomial Naïve Bayes Classifier to predict artists from song-lyrics.
   - scikit-learn CountVectorizer: Tokenize a document and form vocabulary list (fit). Encode a new document with vocabulary (transform). Returns a sparse representation of the counts.
-  - tfidfVectorizer: Scale down the impact of tokens that occur frequently are thus empirically less informative than features that occur in a small fraction of the training corpus.
+  - tfidfVectorizer: Normalize the counts --> Scale down the impact of tokens that occur frequently are thus empirically less informative than features that occur in a small fraction of the training corpus.
+  - Naive Bayes: a Simple and intuitive classifier that works well under small data 
+
 
 <img width="427" alt="Bildschirmfoto 2019-09-04 um 16 14 37" src="https://user-images.githubusercontent.com/50407361/64263170-81d2d000-cf2f-11e9-8dd0-2401e9783cbe.png">
 
