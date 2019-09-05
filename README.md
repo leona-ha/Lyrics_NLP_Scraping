@@ -17,6 +17,6 @@ Check [this script](nlp_scrape_lyrics.py) for steps 1-3 and [this jupyter notebo
   - Naive Bayes: a Simple and intuitive classifier that works well under small data. Calculates the posterior  for every class (= artist) for each observation (= lyric corpus), and classifies the observation based on the class with the largest posterior value.
 
 
-<img width="427" style="text-align:center"> alt="Bildschirmfoto 2019-09-04 um 16 14 37" src="https://user-images.githubusercontent.com/50407361/64263170-81d2d000-cf2f-11e9-8dd0-2401e9783cbe.png">
+< img align="center" img width="427" alt="Bildschirmfoto 2019-09-04 um 16 14 37" src="https://user-images.githubusercontent.com/50407361/64263170-81d2d000-cf2f-11e9-8dd0-2401e9783cbe.png">
 
 **Worcloud Quiz: Who's the Artist?**
