@@ -6,6 +6,7 @@ import pandas as pd
 import spacy
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+### Load the core english language models. Change the core model for lyrics in other languages! ###
 NLP = spacy.load('en_core_web_sm')
 
 ### 1. Get lyrics from lyrics.com  ###
