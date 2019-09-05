@@ -14,7 +14,7 @@ Check [this script](lp_scrape_lyrics.py) for steps 1-3 and [this jupyter noteboo
 4. Build a **Text Classification Model** that uses CountVectorization, TFIDF-Transformation and a Multinomial Naïve Bayes Classifier to predict artists from song-lyrics.
   - scikit-learn CountVectorizer: Tokenize a document and form vocabulary list (fit). Encode a new document with vocabulary (transform). Returns a sparse representation of the counts.
   - tfidfVectorizer: Normalize the counts --> Scale down the impact of tokens that occur frequently are thus empirically less informative than features that occur in a small fraction of the training corpus.
-  - Naive Bayes: a Simple and intuitive classifier that works well under small data. Calculates the posterior  for every class (= artist) for each observation (= lyric corpus), and classifies the observation based on the class with the largest posterior value.
+  - Naive Bayes: a Simple and intuitive classifier that works well under small data. Calculates the posterior  for every class (= artist) for each observation (= lyric corpus), and classifies the observation based on the class with the largest posterior value. Primarily used for text classification, which involves high-dimensional training data sets.
 
 <p align="center">
 <img width="300" alt="Bildschirmfoto 2019-09-04 um 16 14 37" src="https://user-images.githubusercontent.com/50407361/64263170-81d2d000-cf2f-11e9-8dd0-2401e9783cbe.png">
