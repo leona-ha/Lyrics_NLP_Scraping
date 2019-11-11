@@ -4,7 +4,7 @@
 
 **Steps:**
 
-Check [this script](lp_scrape_lyrics.py) for steps 1-3 and [this jupyter notebook](Lyrics_Scrape_Clean.ipynb) for Step 4.
+Check [this script](nlp_scrape_lyrics.py) for steps 1-3 and [this jupyter notebook](Lyrics_Scrape_Clean.ipynb) for Step 4.
 
 1. **Scrape** lyrics from two or more artists on lyrics.com using BeautifulSoup and RegEx.
 2. **Text Preprocessing**:  e.g. Tokenizing and Lemmatizing using Spacy
